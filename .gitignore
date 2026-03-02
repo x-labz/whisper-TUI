@@ -152,4 +152,5 @@ cython_debug/
 
 # Project specific
 .claude/
-/audio/
+/audio/*
+!/audio/.gitkeep
