@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whisper-tui"
+version = "0.1.0"
+description = "Audio transcription TUI app using faster-whisper"
+requires-python = ">=3.10"
+dependencies = [
+    "faster-whisper>=1.0.0",
+    "textual>=0.80.0",
+    "openvino>=2024.0",
+    "openvino-genai>=2024.0",
+    "numpy>=1.24.0",
+    "huggingface-hub>=0.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+    "pytest-mock>=3.14",
+    "pytest-cov>=5.0",
+]
+
+[project.scripts]
+whisper-tui = "app.main:run"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.setuptools.packages.find]
+include = ["app*"]

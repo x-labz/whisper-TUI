@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: whisper-tui
+Version: 0.1.0
+Summary: Audio transcription TUI app using faster-whisper
+Requires-Python: >=3.10
+Requires-Dist: faster-whisper>=1.0.0
+Requires-Dist: textual>=0.80.0
+Requires-Dist: openvino>=2024.0
+Requires-Dist: openvino-genai>=2024.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: huggingface-hub>=0.20.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.24; extra == "dev"
+Requires-Dist: pytest-mock>=3.14; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"

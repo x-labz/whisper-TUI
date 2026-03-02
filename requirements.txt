@@ -1,0 +1,8 @@
+faster-whisper>=1.0.0
+textual>=0.80.0
+
+# Dev dependencies
+pytest>=8.0
+pytest-asyncio>=0.24
+pytest-mock>=3.14
+pytest-cov>=5.0

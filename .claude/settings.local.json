@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(py:*)",
+      "Bash(python:*)",
+      "mcp__chrome-devtools__list_pages",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:textual.textualize.io)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__take_screenshot",
+      "Bash(cp:*)",
+      "mcp__chrome-devtools__new_page",
+      "Bash(ls:*)",
+      "Bash(uv run:*)",
+      "Bash(uv pip:*)",
+      "Bash(wmic path:*)",
+      "Bash(test:*)",
+      "Bash(rm:*)",
+      "WebFetch(domain:docs.openvino.ai)",
+      "WebFetch(domain:deepwiki.com)"
+    ]
+  }
+}
